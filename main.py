@@ -1,12 +1,18 @@
 import requests
 import json
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
+
+# Access the environment variables
+key_ = os.getenv("X_RAPIDAPI_KEY")
 
 ############# endpoints categories/v2/list-root
 # url = "https://sephora.p.rapidapi.com/categories/v2/list-root"
 
 # headers = {
-# 	"x-rapidapi-key": "3a76ca0863msh1d8daf4bb187140p1e8cb5jsnc9be8101eb64",
+# 	"x-rapidapi-key": key_,
 # 	"x-rapidapi-host": "sephora.p.rapidapi.com"
 # }
 #############
@@ -17,7 +23,7 @@ import json
 # querystring = {"categoryId":"cat160006"}
 
 # headers = {
-# 	"x-rapidapi-key": "3a76ca0863msh1d8daf4bb187140p1e8cb5jsnc9be8101eb64",
+# 	"x-rapidapi-key": key_,
 # 	"x-rapidapi-host": "sephora.p.rapidapi.com"
 # }
 
@@ -30,7 +36,7 @@ url = "https://sephora.p.rapidapi.com/us/products/v2/list"
 querystring = {"pageSize":"60","currentPage":"1","categoryId":"cat1230039"}
 
 headers = {
-	"x-rapidapi-key": "3a76ca0863msh1d8daf4bb187140p1e8cb5jsnc9be8101eb64",
+	"x-rapidapi-key": key_,
 	"x-rapidapi-host": "sephora.p.rapidapi.com"
 }
 
@@ -64,8 +70,8 @@ data = response.json()
 # # print(json.dumps(keys_hierarchy["categories"], indent=4))
 
 
-# # print(json.dumps(data, indent=4))
+print(json.dumps(data, indent=4))
 # # # Write the data to a file
-with open('Fragrances.json', 'w') as file:
-    json.dump(data, file, indent=4)
+# with open('Fragrances.json', 'w') as file:
+#     json.dump(data, file, indent=4)
 
