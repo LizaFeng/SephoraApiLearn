@@ -51,6 +51,8 @@ response = requests.get(url, headers=headers, params=querystring)
 #         keys_structure[parent_key] = extract_keys(data[0], parent_key)  # Assume first item structure
 
 #     return keys_structure
+# #########
+
 
 # Assuming `response` is your API response
 data = response.json()
@@ -60,7 +62,7 @@ data = response.json()
 
 # # Pretty-print the keys as JSON
 # # print(json.dumps(keys_hierarchy["categories"], indent=4))
-# #########
+
 
 # # print(json.dumps(data, indent=4))
 # # # Write the data to a file
