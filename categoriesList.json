@@ -1,0 +1,88 @@
+{
+    "categoryId": "cat160006",
+    "childCategories": [
+        {
+            "categoryId": "cat1230039",
+            "displayName": "Women",
+            "hasChildCategories": true,
+            "hasDropdownMenu": false,
+            "megaNavColumn": 0,
+            "targetUrl": "/shop/fragrances-for-women"
+        },
+        {
+            "categoryId": "cat1230040",
+            "displayName": "Men",
+            "hasChildCategories": true,
+            "hasDropdownMenu": false,
+            "megaNavColumn": 0,
+            "targetUrl": "/shop/fragrances-for-men"
+        },
+        {
+            "categoryId": "cat5000004",
+            "displayName": "Unisex / Genderless",
+            "hasChildCategories": false,
+            "hasDropdownMenu": false,
+            "megaNavColumn": 0,
+            "targetUrl": "/shop/unisex-perfume-cologne"
+        },
+        {
+            "categoryId": "cat1230041",
+            "displayName": "Value & Gift Sets",
+            "hasChildCategories": true,
+            "hasDropdownMenu": false,
+            "megaNavColumn": 0,
+            "targetUrl": "/shop/fragrance-value-sets-gifts"
+        },
+        {
+            "categoryId": "cat60154",
+            "displayName": "Candles & Home Scents",
+            "hasChildCategories": true,
+            "hasDropdownMenu": false,
+            "megaNavColumn": 0,
+            "targetUrl": "/shop/home-fragrance"
+        },
+        {
+            "categoryId": "cat1960031",
+            "displayName": "Clean Fragrance",
+            "hasChildCategories": false,
+            "hasDropdownMenu": false,
+            "megaNavColumn": 0,
+            "targetUrl": "/shop/clean-fragrance"
+        },
+        {
+            "categoryId": "cat1750031",
+            "displayName": "Shop by Fragrance Family",
+            "hasChildCategories": true,
+            "hasDropdownMenu": false,
+            "megaNavColumn": 0,
+            "targetUrl": "/shop/fragrance-families-notes"
+        },
+        {
+            "categoryId": "cat2900032",
+            "displayName": "Vegan",
+            "hasChildCategories": false,
+            "hasDropdownMenu": false,
+            "megaNavColumn": 0,
+            "targetUrl": "/shop/vegan-fragrance"
+        },
+        {
+            "categoryId": "cat1870030",
+            "displayName": "Mini Size",
+            "hasChildCategories": false,
+            "hasDropdownMenu": false,
+            "megaNavColumn": 0,
+            "targetUrl": "/shop/mini-perfume"
+        }
+    ],
+    "displayName": "Fragrance",
+    "enableNoindexMetaTag": false,
+    "hasChildCategories": true,
+    "hasDropdownMenu": false,
+    "seoCanonicalUrl": "/shop/fragrance",
+    "seoKeywords": [],
+    "seoMetaDescription": "Shop fragrances for women and men at Sephora. Find your favorite perfume or cologne or accentuate your style with a new scent.",
+    "seoName": "fragrance",
+    "seoTitle": "Fragrance | Sephora",
+    "targetUrl": "/shop/fragrance",
+    "template": 0
+}

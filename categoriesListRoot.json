@@ -1,0 +1,124 @@
+{
+  "rootCategories": [
+    {
+      "categoryId": "cat140006",
+      "displayName": "Makeup",
+      "hasChildCategories": true,
+      "hasDropdownMenu": false,
+      "selectedThumbImage": "/contentimages/category/cat140006-thumb-selected.png",
+      "showInAppJaBsDropdown": true,
+      "targetUrl": "/shop/makeup-cosmetics",
+      "thumbImage": "/contentimages/category/cat140006-thumb.jpg"
+    },
+    {
+      "categoryId": "cat3780034",
+      "displayName": "Clean at Sephora",
+      "hasChildCategories": true,
+      "hasDropdownMenu": false,
+      "selectedThumbImage": "/contentimages/category/cat3780034-thumb-selected.png",
+      "showInAppJaBsDropdown": false,
+      "targetUrl": "/shop/clean-at-sephora",
+      "thumbImage": "/contentimages/category/cat3780034-thumb.jpg"
+    },
+    {
+      "categoryId": "cat150006",
+      "displayName": "Skincare",
+      "hasChildCategories": true,
+      "hasDropdownMenu": false,
+      "selectedThumbImage": "/contentimages/category/cat150006-thumb-selected.png",
+      "showInAppJaBsDropdown": true,
+      "targetUrl": "/shop/skincare",
+      "thumbImage": "/contentimages/category/cat150006-thumb.jpg"
+    },
+    {
+      "categoryId": "cat130038",
+      "displayName": "Hair",
+      "hasChildCategories": true,
+      "hasDropdownMenu": false,
+      "selectedThumbImage": "/contentimages/category/cat130038-thumb-selected.png",
+      "showInAppJaBsDropdown": true,
+      "targetUrl": "/shop/hair-products",
+      "thumbImage": "/contentimages/category/cat130038-thumb.jpg"
+    },
+    {
+      "categoryId": "cat5000004",
+      "displayName": "Unisex / Genderless",
+      "hasChildCategories": false,
+      "hasDropdownMenu": false,
+      "selectedThumbImage": "/contentimages/category/cat5000004-thumb-selected.png",
+      "showInAppJaBsDropdown": false,
+      "targetUrl": "/shop/unisex-perfume-cologne",
+      "thumbImage": "/contentimages/category/cat5000004-thumb.jpg"
+    },
+    {
+      "categoryId": "cat130042",
+      "displayName": "Tools & Brushes",
+      "hasChildCategories": true,
+      "hasDropdownMenu": false,
+      "selectedThumbImage": "/contentimages/category/cat130042-thumb-selected.png",
+      "showInAppJaBsDropdown": true,
+      "targetUrl": "/shop/makeup-tools",
+      "thumbImage": "/contentimages/category/cat130042-thumb.jpg"
+    },
+    {
+      "categoryId": "cat160006",
+      "displayName": "Fragrance",
+      "hasChildCategories": true,
+      "hasDropdownMenu": false,
+      "selectedThumbImage": "/contentimages/category/cat160006-thumb-selected.png",
+      "showInAppJaBsDropdown": true,
+      "targetUrl": "/shop/fragrance",
+      "thumbImage": "/contentimages/category/cat160006-thumb.jpg"
+    },
+    {
+      "categoryId": "cat140014",
+      "displayName": "Bath & Body",
+      "hasChildCategories": true,
+      "hasDropdownMenu": false,
+      "selectedThumbImage": "/contentimages/category/cat140014-thumb-selected.png",
+      "showInAppJaBsDropdown": true,
+      "targetUrl": "/shop/bath-body",
+      "thumbImage": "/contentimages/category/cat140014-thumb.jpg"
+    },
+    {
+      "categoryId": "cat60270",
+      "displayName": "Gifts",
+      "hasChildCategories": true,
+      "hasDropdownMenu": false,
+      "selectedThumbImage": "/contentimages/category/cat60270-thumb-selected.png",
+      "showInAppJaBsDropdown": false,
+      "targetUrl": "/shop/gifts",
+      "thumbImage": "/contentimages/category/cat60270-thumb.jpg"
+    },
+    {
+      "categoryId": "cat130044",
+      "displayName": "Men",
+      "hasChildCategories": true,
+      "hasDropdownMenu": false,
+      "selectedThumbImage": "/contentimages/category/cat130044-thumb-selected.png",
+      "showInAppJaBsDropdown": false,
+      "targetUrl": "/shop/men",
+      "thumbImage": "/contentimages/category/cat130044-thumb.jpg"
+    },
+    {
+      "categoryId": "cat1540033",
+      "displayName": "Color Correct",
+      "hasChildCategories": false,
+      "hasDropdownMenu": false,
+      "selectedThumbImage": "/contentimages/category/cat1540033-thumb-selected.png",
+      "showInAppJaBsDropdown": false,
+      "targetUrl": "/shop/color-correcting",
+      "thumbImage": "/contentimages/category/cat1540033-thumb.jpg"
+    },
+    {
+      "categoryId": "cat1830032",
+      "displayName": "Mini Size",
+      "hasChildCategories": true,
+      "hasDropdownMenu": false,
+      "selectedThumbImage": "/contentimages/category/cat1830032-thumb-selected.png",
+      "showInAppJaBsDropdown": false,
+      "targetUrl": "/shop/travel-size-toiletries",
+      "thumbImage": "/contentimages/category/cat1830032-thumb.jpg"
+    }
+  ]
+}
