@@ -75,3 +75,5 @@ data = response.json().get("products", [])
 with open('Fragrances2.json', 'w') as file:
     json.dump(data, file, indent=4)
 
+
+
