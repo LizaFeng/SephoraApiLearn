@@ -60,8 +60,8 @@ response = requests.get(url, headers=headers, params=querystring)
 # #########
 
 
-# Assuming `response` is your API response
-data = response.json()
+# Focuses on the products key in the Fragrances section
+data = response.json().get("products", [])
 
 # # Get the structured keys
 # keys_hierarchy = extract_keys(data)
@@ -70,8 +70,8 @@ data = response.json()
 # # print(json.dumps(keys_hierarchy["categories"], indent=4))
 
 
-print(json.dumps(data, indent=4))
-# # # Write the data to a file
-# with open('Fragrances.json', 'w') as file:
-#     json.dump(data, file, indent=4)
+# print(json.dumps(data, indent=4))
+# # Write the data to a file
+with open('Fragrances2.json', 'w') as file:
+    json.dump(data, file, indent=4)
 
