@@ -5,6 +5,9 @@ import os
 
 load_dotenv()
 
+
+#Ask user to input a perfume:
+lovedPerfume = input("Enter a perfume: ")
 # Access the environment variables
 key_ = os.getenv("X_RAPIDAPI_KEY")
 
@@ -68,12 +71,26 @@ data = response.json().get("products", [])
 
 # # Pretty-print the keys as JSON
 # # print(json.dumps(keys_hierarchy["categories"], indent=4))
+print(response.json())
+
+############ Getting the Fragrance details to access the ingredientDesc
+url = "https://sephora.p.rapidapi.com/us/products/v2/detail"
+
+product_id = data. 
+preferedSku = data.
+querystring = {"productId":product_id,"preferedSku": preferedSku}
+
+response2 = requests.get(url, headers=headers, params=querystring)
+
+
+
+############
 
 
 # print(json.dumps(data, indent=4))
 # # Write the data to a file
-with open('Fragrances2.json', 'w') as file:
-    json.dump(data, file, indent=4)
+# with open('Fragrances2.json', 'w') as file:
+#     json.dump(data, file, indent=4)
 
 
 
